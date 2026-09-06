@@ -6,23 +6,35 @@
   <h1>Welcome, traveler. I'm Royal Milktea Master. 🌙</h1>
   <p><strong>Building delightful tools with AI, code, and a little magic.</strong></p>
   <p><em>Currently brewing ideas under the stars...</em></p>
+  <p>
+    <a href="mailto:leslie0907@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20me-8b7bd8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me at leslie0907@gmail.com" /></a>
+  </p>
 </div>
 
-## ✦ About me
+## ✦ About Me
 
-- **Multi-Agent Systems**｜多代理系統
-- **Workflow Automation**｜工作流程自動化
-- **Data Analytics**｜數據分析
-- **Game Design & Development**｜遊戲設計與製作
+I'm **Pin Hung Lin**, also known as **Royal Milktea Master**.
 
-<details>
-  <summary>🐾 摸摸貓娘</summary>
-  <br />
-  呼嚕……歡迎來到皇家奶茶工房。今天也要一起寫出有趣的東西喔 ✨
-</details>
+I build AI-powered tools, multi-agent workflows, automation systems, data-driven applications, and interactive experiences.
 
-## ✉️ Contact
+我的背景橫跨政策研究與製程工程，習慣從複雜問題中整理脈絡、建立可驗證的流程，並將這套思考方式延伸到 AI 開發與自動化。
 
-歡迎來信聯絡與合作，一起沖泡有趣的新點子。
+### Background
 
-<a href="mailto:leslie0907@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20me-8b7bd8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me at leslie0907@gmail.com" /></a>
+- 🎓 **Education** — NCKU DPS｜光電科學與工程學系
+- 💼 **Experience** — 曾擔任政策研究員與製程工程師
+- 🌱 **Current Focus** — Agentic AI、開發流程自動化與互動角色體驗
+
+## ✦ Core Expertise
+
+- **Multi-Agent Systems｜多代理系統**  
+  設計具備角色分工、驗證流程與可追蹤決策的 AI 協作系統。
+
+- **Workflow Automation｜工作流程自動化**  
+  將重複性的開發與內容流程，轉換成可靠且可重用的自動化工具。
+
+- **Data Analytics｜數據分析**  
+  從資料整理、分析到視覺化，將原始數據轉化成可行動的資訊。
+
+- **Game Design & Development｜遊戲設計與製作**  
+  關注遊戲機制、玩家體驗，以及互動角色與工具的實作。
