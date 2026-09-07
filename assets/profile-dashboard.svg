@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="970" viewBox="0 0 1440 970" role="img" aria-labelledby="title desc">
+  <title id="title">Royal Milktea Master — Starlit Workshop Dashboard</title>
+  <desc id="desc">A bilingual profile dashboard introducing Royal Milktea Master's background, core expertise, and current interests.</desc>
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1024"/>
+      <stop offset="0.52" stop-color="#17162f"/>
+      <stop offset="1" stop-color="#271b3c"/>
+    </linearGradient>
+    <linearGradient id="milktea" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe4ac"/>
+      <stop offset="1" stop-color="#d8a56d"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#c9bdff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#c9bdff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#050714" flood-opacity="0.5"/>
+    </filter>
+    <filter id="starGlow" x="-300%" y="-300%" width="700%" height="700%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      text { font-family: "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", sans-serif; }
+      .eyebrow { fill: #b8aae9; font-size: 18px; font-weight: 650; letter-spacing: 2.4px; }
+      .section { fill: #f7f2ff; font-size: 29px; font-weight: 750; }
+      .headline { fill: #fff5df; font-size: 30px; font-weight: 760; }
+      .zh-headline { fill: #e7dcff; font-size: 22px; font-weight: 650; }
+      .body-en { fill: #d7d3e7; font-size: 19px; font-weight: 450; }
+      .body-zh { fill: #aaa5c1; font-size: 18px; font-weight: 450; }
+      .card-title { fill: #f8f4ff; font-size: 22px; font-weight: 720; }
+      .card-zh { fill: #cdbfff; font-size: 19px; font-weight: 650; }
+      .card-body { fill: #c9c5d8; font-size: 17px; }
+      .card-body-zh { fill: #9994ae; font-size: 16px; }
+      .timeline-en { fill: #eee9fa; font-size: 20px; font-weight: 680; }
+      .timeline-zh { fill: #aaa5be; font-size: 17px; }
+      .brew-title { fill: #f8f4ff; font-size: 20px; font-weight: 690; }
+      .brew-zh { fill: #c2b7e5; font-size: 17px; }
+      .twinkle-a { animation: twinkle 3.8s ease-in-out infinite; transform-origin: center; }
+      .twinkle-b { animation: twinkle 5.1s ease-in-out 1.2s infinite; transform-origin: center; }
+      .twinkle-c { animation: twinkle 4.4s ease-in-out 2.1s infinite; transform-origin: center; }
+      .steam-a { animation: drift 5.2s ease-in-out infinite; }
+      .steam-b { animation: drift 6.1s ease-in-out 1.4s infinite; }
+      @keyframes twinkle { 0%,100% { opacity: .28; } 48% { opacity: 1; } 60% { opacity: .55; } }
+      @keyframes drift { 0%,100% { opacity: .15; transform: translateY(5px); } 50% { opacity: .7; transform: translateY(-7px); } }
+      @media (prefers-reduced-motion: reduce) { .twinkle-a,.twinkle-b,.twinkle-c,.steam-a,.steam-b { animation: none; } }
+    </style>
+  </defs>
+
+  <rect width="1440" height="970" rx="32" fill="url(#night)"/>
+  <circle cx="1250" cy="115" r="245" fill="url(#glow)" opacity="0.42"/>
+  <circle cx="210" cy="880" r="240" fill="url(#glow)" opacity="0.18"/>
+  <g fill="#fff5cf" filter="url(#starGlow)">
+    <circle class="twinkle-a" cx="85" cy="62" r="2.2" opacity=".55"/><circle class="twinkle-b" cx="284" cy="44" r="1.7" opacity=".35"/>
+    <circle class="twinkle-c" cx="463" cy="76" r="2.8" opacity=".65"/><circle class="twinkle-b" cx="846" cy="49" r="2.1" opacity=".5"/>
+    <circle class="twinkle-a" cx="1075" cy="76" r="1.6" opacity=".3"/><circle class="twinkle-c" cx="1340" cy="55" r="2.7" opacity=".75"/>
+    <circle class="twinkle-a" cx="1378" cy="322" r="1.8" opacity=".4"/><circle class="twinkle-b" cx="52" cy="508" r="2.5" opacity=".6"/>
+    <circle class="twinkle-c" cx="1400" cy="746" r="2.1" opacity=".5"/><circle class="twinkle-a" cx="1018" cy="929" r="1.8" opacity=".45"/>
+    <circle class="twinkle-b" cx="641" cy="934" r="2.6" opacity=".65"/>
+  </g>
+  <g opacity="0.42" stroke="#8275bc" stroke-width="1.5">
+    <path d="M1148 62 L1192 86 L1240 57 L1286 94 L1335 73" fill="none"/>
+    <circle cx="1148" cy="62" r="3" fill="#d9ceff"/><circle cx="1192" cy="86" r="2.3" fill="#d9ceff"/>
+    <circle cx="1240" cy="57" r="3.5" fill="#ffe1a8"/><circle cx="1286" cy="94" r="2.4" fill="#d9ceff"/><circle cx="1335" cy="73" r="3" fill="#d9ceff"/>
+  </g>
+  <text x="54" y="67" class="eyebrow">ROYAL MILKTEA MASTER · STARLIT WORKSHOP</text>
+  <text x="1385" y="67" class="eyebrow" text-anchor="end">星夜工房</text>
+
+  <g filter="url(#softShadow)"><rect x="40" y="104" width="500" height="816" rx="27" fill="#17172d" fill-opacity="0.91" stroke="#70659b" stroke-opacity="0.5"/></g>
+  <rect x="40" y="104" width="7" height="136" rx="4" fill="url(#milktea)"/>
+  <text x="78" y="157" class="section">About Me｜關於我</text>
+  <text x="78" y="216" class="headline">I build delightful tools with AI,</text>
+  <text x="78" y="254" class="headline">code, and a little magic.</text>
+  <text x="78" y="296" class="zh-headline">我用 AI、程式碼與一點魔法，</text>
+  <text x="78" y="328" class="zh-headline">打造令人愉快的工具。</text>
+  <line x1="78" y1="370" x2="500" y2="370" stroke="#5d5677" stroke-opacity=".65"/>
+  <text x="78" y="410" class="body-en">By day, I turn complex problems into clear systems.</text>
+  <text x="78" y="440" class="body-en">By night, I brew agents, automation, stories, and</text>
+  <text x="78" y="470" class="body-en">games beneath the stars.</text>
+  <text x="78" y="510" class="body-zh">白天，我將複雜問題整理成清晰系統；</text>
+  <text x="78" y="539" class="body-zh">夜裡，我在星空下沖泡代理工作流、自動化、</text>
+  <text x="78" y="568" class="body-zh">故事與遊戲。</text>
+  <text x="78" y="628" class="eyebrow">MY JOURNEY｜我的旅程</text>
+  <line x1="92" y1="668" x2="92" y2="838" stroke="#8a7bbb" stroke-width="2"/>
+  <circle cx="92" cy="681" r="8" fill="#ffe0a3"/><circle cx="92" cy="754" r="8" fill="#b9a9ff"/><circle cx="92" cy="827" r="8" fill="#9ad9d4"/>
+  <text x="122" y="681" class="timeline-en">NCKU DPS</text><text x="122" y="708" class="timeline-zh">光電科學與工程學系</text>
+  <text x="122" y="754" class="timeline-en">Policy Researcher</text><text x="122" y="781" class="timeline-zh">政策研究員</text>
+  <text x="122" y="827" class="timeline-en">Process Engineer</text><text x="122" y="854" class="timeline-zh">製程工程師</text>
+  <g transform="translate(445 814)">
+    <path d="M0 24 h45 a16 16 0 0 1 -16 15 h-17 a12 12 0 0 1 -12 -12z" fill="#d7a66e" opacity=".9"/>
+    <path d="M44 27 q22 -1 13 16 q-6 9 -18 3" fill="none" stroke="#d7a66e" stroke-width="6"/>
+    <path class="steam-a" d="M12 17 q-9 -11 2 -22 q9 -9 1 -20" fill="none" stroke="#b8aae9" stroke-width="3" stroke-linecap="round"/>
+    <path class="steam-b" d="M29 15 q10 -12 0 -24 q-8 -10 1 -19" fill="none" stroke="#ffe2aa" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g filter="url(#softShadow)"><rect x="566" y="104" width="834" height="510" rx="27" fill="#17172d" fill-opacity="0.91" stroke="#70659b" stroke-opacity="0.5"/></g>
+  <text x="604" y="157" class="section">Core Expertise｜核心專長</text>
+  <text x="1362" y="154" class="eyebrow" text-anchor="end">WHAT I BUILD｜我所打造的事物</text>
+  <g>
+    <rect x="602" y="188" width="372" height="181" rx="20" fill="#24213e" stroke="#766ca1" stroke-opacity=".52"/>
+    <circle cx="632" cy="219" r="8" fill="#b5a6ff"/><text x="654" y="226" class="card-title">Multi-Agent Systems</text>
+    <text x="632" y="257" class="card-zh">多代理系統</text><text x="632" y="291" class="card-body">Specialized roles, verification workflows,</text>
+    <text x="632" y="316" class="card-body">and traceable decisions.</text><text x="632" y="345" class="card-body-zh">角色分工、驗證流程與可追蹤決策。</text>
+
+    <rect x="992" y="188" width="372" height="181" rx="20" fill="#24213e" stroke="#766ca1" stroke-opacity=".52"/>
+    <circle cx="1022" cy="219" r="8" fill="#ffe0a3"/><text x="1044" y="226" class="card-title">Workflow Automation</text>
+    <text x="1022" y="257" class="card-zh">工作流程自動化</text><text x="1022" y="291" class="card-body">Reliable, reusable systems for repetitive</text>
+    <text x="1022" y="316" class="card-body">development and content work.</text><text x="1022" y="345" class="card-body-zh">將重複流程轉為可靠、可重用的工具。</text>
+
+    <rect x="602" y="389" width="372" height="181" rx="20" fill="#24213e" stroke="#766ca1" stroke-opacity=".52"/>
+    <circle cx="632" cy="420" r="8" fill="#9ad9d4"/><text x="654" y="427" class="card-title">Data Analytics</text>
+    <text x="632" y="458" class="card-zh">數據分析</text><text x="632" y="492" class="card-body">From raw data to actionable insights</text>
+    <text x="632" y="517" class="card-body">through analysis and visualization.</text><text x="632" y="546" class="card-body-zh">以分析與視覺化，將資料轉為洞見。</text>
+
+    <rect x="992" y="389" width="372" height="181" rx="20" fill="#24213e" stroke="#766ca1" stroke-opacity=".52"/>
+    <circle cx="1022" cy="420" r="8" fill="#efa5d5"/><text x="1044" y="427" class="card-title">Game Design &amp; Development</text>
+    <text x="1022" y="458" class="card-zh">遊戲設計與製作</text><text x="1022" y="492" class="card-body">Game mechanics, player experience,</text>
+    <text x="1022" y="517" class="card-body">interactive characters, and playful tools.</text><text x="1022" y="546" class="card-body-zh">探索機制、體驗、互動角色與有趣工具。</text>
+  </g>
+
+  <g filter="url(#softShadow)"><rect x="566" y="638" width="834" height="282" rx="27" fill="#17172d" fill-opacity="0.91" stroke="#70659b" stroke-opacity="0.5"/></g>
+  <text x="604" y="691" class="section">Currently Brewing｜專案正在沖泡</text>
+  <g>
+    <rect x="602" y="721" width="372" height="77" rx="18" fill="#24213e" stroke="#766ca1" stroke-opacity=".48"/>
+    <text x="626" y="752" class="brew-title">SEO &amp; AEO Research</text><text x="626" y="780" class="brew-zh">SEO 與 AEO 研究</text>
+    <rect x="992" y="721" width="372" height="77" rx="18" fill="#24213e" stroke="#766ca1" stroke-opacity=".48"/>
+    <text x="1016" y="752" class="brew-title">Solo Game Development</text><text x="1016" y="780" class="brew-zh">個人遊戲製作</text>
+    <rect x="602" y="816" width="372" height="77" rx="18" fill="#24213e" stroke="#766ca1" stroke-opacity=".48"/>
+    <text x="626" y="847" class="brew-title">Fiction Writing</text><text x="626" y="875" class="brew-zh">小說創作</text>
+    <rect x="992" y="816" width="372" height="77" rx="18" fill="#24213e" stroke="#766ca1" stroke-opacity=".48"/>
+    <text x="1016" y="847" class="brew-title">Enterprise AI Assistants</text><text x="1016" y="875" class="brew-zh">企業 AI 助理製作</text>
+  </g>
+</svg>

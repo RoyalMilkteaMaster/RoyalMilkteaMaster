@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="170" viewBox="0 0 1440 170" role="img" aria-labelledby="title desc">
+  <title id="title">Contact Royal Milktea Master</title>
+  <desc id="desc">Open to conversations and collaboration. Email leslie0907@gmail.com.</desc>
+  <defs>
+    <linearGradient id="contactBg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#17172d"/><stop offset="0.62" stop-color="#201936"/><stop offset="1" stop-color="#302041"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      text { font-family: "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", sans-serif; }
+      .main { fill: #fbf7ff; font-size: 29px; font-weight: 740; }.sub { fill: #bdb5d1; font-size: 21px; font-weight: 500; }
+      .email { fill: #172b4d; font-size: 24px; font-weight: 720; }
+      .star { animation: twinkle 3.8s ease-in-out infinite; } @keyframes twinkle { 0%,100% { opacity: .28; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { .star { animation: none; } }
+    </style>
+  </defs>
+  <rect x="1.5" y="1.5" width="1437" height="167" rx="27" fill="url(#contactBg)" stroke="#776aa3" stroke-width="3"/>
+  <circle class="star" cx="70" cy="45" r="3.5" fill="#ffe2a8" filter="url(#glow)"/><circle class="star" cx="121" cy="121" r="2.5" fill="#cabfff" filter="url(#glow)" style="animation-delay:1.3s"/>
+  <path d="M0 126 C190 85 292 174 475 127 S751 109 855 146" fill="none" stroke="#7f70ae" stroke-opacity=".26" stroke-width="2"/>
+  <text x="74" y="72" class="main">Open to conversations &amp; collaboration.</text><text x="74" y="111" class="sub">歡迎來信交流與合作，一起把好點子沖泡成作品。</text>
+  <rect x="780" y="42" width="608" height="86" rx="17" fill="#fbfdff" stroke="#c9d1dc" stroke-width="3"/>
+  <rect x="816" y="65" width="44" height="34" rx="5" fill="none" stroke="#1473e6" stroke-width="4"/>
+  <path d="M819 69 l19 15 19 -15" fill="none" stroke="#1473e6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="883" y="93" class="email">info@royal_milktea_master.com</text>
+</svg>
